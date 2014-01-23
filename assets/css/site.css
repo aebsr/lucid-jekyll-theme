@@ -51,11 +51,15 @@ a {
   text-decoration: none;
 }
 
+a:focus {
+  outline: none;
+}
+
 a:nth-child(even) {
   color: #BF4584;
 }
 
-a:hover {
+a:hover, a:focus {
   color: #111;
   text-decoration: underline;
 }
