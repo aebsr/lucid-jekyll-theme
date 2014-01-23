@@ -1,0 +1,24 @@
+{
+  "name": "lucid-jekyll-theme",
+  "author": "Antoine Butler <antoinebsr@gmail.com>",
+  "homepage": "http://aebsr.github.io/lucid-jekyll-theme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aebsr/lucid-jekyll-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aebsr/lucid-jekyll-theme/issues"
+  },
+  "engines": {
+    "node": "~0.10.15",
+    "npm": "~1.3.5"
+  },
+  "devDependencies": {
+    "bower": "~0.10.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-cli": "~0.1.9",
+    "grunt-bump": "~0.0.11",
+    "grunt-autoprefixer": "~0.6.4"
+  }
+}
