@@ -1,0 +1,20 @@
+{
+  "name": "aebsr.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/aebsr/aebsr.github.com",
+  "authors": [
+    "Antoine Butler <antoinebsr@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~2.1.3"
+  }
+}

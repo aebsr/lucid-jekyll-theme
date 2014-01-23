@@ -1,0 +1,34 @@
+title:        Lucid
+tagline:      'Lucid, a Jekyll theme'
+description:  'A simple, framework-free and content first <a href="http://jekyllrb.com/">jekyll</a> theme made by <a href="http://twitter.com/aebsr">@aebsr</a>'
+# Omit trailing slashes from your site url
+url:          http://aebsr.github.com/lucid-jekyll-theme
+author:
+  name:       'Antoine Butler'
+  bio:        'A designer, developer and musician working for <a href="http://hzdg.com">HZ</a>. His opinions are his own, and often offend. <a href="mailto:antoinebsr@gmail.com?subject=Hi">Say Hi.</a>'
+  email:      'antoinebsr@gmail.com'
+permalink:    pretty
+pygments:     true
+markdown:     redcarpet
+paginate:     5
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+links:
+  - title: About
+    url: /about
+  - title: Fork Me
+    url: https://github.com/aebsr/lucid-jekyll-theme
+    external: true
