@@ -46,6 +46,7 @@ body {
 
 a {
   -webkit-transition: color 0.3s ease, background 0.3s ease;
+  transition: color 0.3s ease, background 0.3s ease;
   color: #008A99;
   text-decoration: none;
 }
@@ -340,6 +341,7 @@ article footer h6 {
 
 #skip-to-nav, #header, #main, #footer {
   -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
 }
 
 [data-menu-state="open"] body {
@@ -355,4 +357,6 @@ article footer h6 {
 [data-menu-state="open"] #main,
 [data-menu-state="open"] #footer {
   -webkit-transform: translate(17rem, 0);
+  -ms-transform: translate(17rem, 0);
+  transform: translate(17rem, 0);
 }
