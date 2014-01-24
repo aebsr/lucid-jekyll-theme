@@ -15,6 +15,10 @@
     Footer
   Pagination
   Nav States
+  Small Form Adjustments
+  Medium Form Adjustments
+  Large Form Adjustments
+  Code
 */
 
 /*
@@ -47,8 +51,8 @@ body {
 }
 
 a {
-  -webkit-transition: color 0.3s ease, background 0.3s ease;
-  transition: color 0.3s ease, background 0.3s ease;
+  -webkit-transition: color 0.2s ease, background 0.2s ease;
+  transition: color 0.2s ease, background 0.2s ease;
   color: #008A99;
   text-decoration: none;
 }
@@ -286,8 +290,7 @@ article footer h6 {
   display: table-cell;
   width: 10em;
   text-align: center;
-  padding-left: 1em;
-  margin-left: 1em;
+  padding-left: 2em;
   float: right;
 }
 
@@ -354,6 +357,7 @@ article footer h6 {
   background: #BF4584;
 }
 
+/*
   Navigation
   =========================================================================
 */
@@ -383,8 +387,8 @@ article footer h6 {
 }
 
 #skip-to-nav, #header, #main, #footer {
-  -webkit-transition: all ease 0.3s;
-  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 
 [data-menu-state="open"] body {
@@ -402,4 +406,102 @@ article footer h6 {
   -webkit-transform: translate(17rem, 0);
   -ms-transform: translate(17rem, 0);
   transform: translate(17rem, 0);
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/*
+  Small Form Adjustments
+  =========================================================================
+*/
+
+@media (max-width: 21.176470588em) {
+  [data-menu-state="open"] #skip-to-nav,
+  [data-menu-state="open"] #header,
+  [data-menu-state="open"] #main,
+  [data-menu-state="open"] #footer {
+    -webkit-transform: translate(15rem, 0);
+    -ms-transform: translate(15rem, 0);
+    transform: translate(15rem, 0);
+  }
+
+  #skip-to-nav {
+    opacity: 0.25;
+  }
+
+  #bio, #share {
+    width: 100%;
+    display: block;
+    float: none;
+  }
+
+  #share {
+    text-align: left;
+    padding-left: 0;
+    margin-bottom: 2em;
+  }
+
+  #share * {
+    display: inline-block;
+  }
+
+  #share a {
+    text-align: center;
+  }
+}
+
+/*
+  Medium Form Adjustments
+  =========================================================================
+*/
+
+@media (max-width: 35em) {
+  #main, #footer {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  #pagination a {
+    font-size: 1.5em;
+  }
+}
+
+/*
+  Large Form Adjustments
+  =========================================================================
+*/
+
+@media (min-width: 59.5em) {
+  #skip-to-nav {
+    display: none;
+  }
+
+  #header {
+    -webkit-transform: translate(17rem, 0);
+    -ms-transform: translate(17rem, 0);
+    transform: translate(17rem, 0);
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  body {
+    padding-left: 17em;
+  }
+}
+
+/*
+  Code
+  =========================================================================
+*/
+
+pre {
+  overflow: scroll;
+}
+
+code {
+  font-size: 0.75em;
+  white-space: pre;
+  font-family: Consolas, Monaco, "Lucida Console", "Courier New";
 }
