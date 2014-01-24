@@ -10,18 +10,20 @@ layout: default
         {{ post.title }}
       </a>
     </h2>
+    {% if post.description %}
     <p>{{ post.description }}</p>
+    {% endif %}
   </article>
 
   <hr>
 {% endfor %}
 
 <!-- Pagination links -->
-<div class="pagination">
+{% if paginator.next_page or paginator.previous_page %}
+<nav id="pagination">
+{% endif %}
   {% if paginator.next_page %}
     <a href="/page{{paginator.next_page}}" class="older">Older</a>
-  {% else %}
-    <span class="next">Older</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
@@ -29,7 +31,7 @@ layout: default
     {% else %}
       <a href="/page{{paginator.previous_page}}" class="newer">Newer</a>
     {% endif %}
-  {% else %}
-    <span class="previous">Newer</span>
   {% endif %}
-</div>
+{% if paginator.next_page || paginator.previous_page %}
+</nav>
+{% endif %}
