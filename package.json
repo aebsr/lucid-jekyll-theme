@@ -2,7 +2,7 @@
   "name": "lucid-jekyll-theme",
   "author": "Antoine Butler <antoinebsr@gmail.com>",
   "homepage": "http://aeb.sr/lucid-jekyll-theme",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/aebsr/lucid-jekyll-theme.git"

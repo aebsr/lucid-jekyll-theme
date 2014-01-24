@@ -1,6 +1,6 @@
 title:        Lucid
 tagline:      'Lucid, a Jekyll theme'
-version:      '0.0.0'
+version:      '0.1.0'
 description:  'A simple, framework-free and content first <a href="http://jekyllrb.com/">jekyll</a> theme made by <a href="http://twitter.com/aebsr">@aebsr</a>'
 # Omit trailing slashes from your site url
 url:          http://aeb.sr/lucid-jekyll-theme
