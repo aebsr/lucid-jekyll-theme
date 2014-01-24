@@ -16,9 +16,7 @@
   "devDependencies": {
     "bower": "~0.10.0",
     "grunt": "~0.4.1",
-    "grunt-contrib-watch": "~0.5.2",
-    "grunt-cli": "~0.1.9",
-    "grunt-bump": "~0.0.11",
+    "grunt-bump": "0.0.13",
     "grunt-autoprefixer": "~0.6.4"
   }
 }
