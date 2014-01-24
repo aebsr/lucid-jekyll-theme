@@ -13,6 +13,7 @@
       Footer
     Navigation
     Footer
+  Pagination
   Nav States
 */
 
@@ -316,6 +317,43 @@ article footer h6 {
 }
 
 /*
+  Pagination
+  =========================================================================
+*/
+
+#pagination {
+  padding-top: 3.75em;
+  padding-bottom: 3.75em;
+  overflow: hidden;
+}
+
+#pagination a {
+  font-size: 2em;
+  display: block;
+  width: 48.75%;
+  background: #ddd;
+  height: 2em;
+  line-height: 1.5;
+  color: #fefefe;
+  padding: 0.25em 0.5em;
+  text-align: center;
+  float: left;
+  font-weight: 700;
+}
+
+#pagination a:hover {
+  background: #008A99;
+  text-decoration: none;
+}
+
+#pagination .newer {
+  float: right;
+}
+
+#pagination .newer:hover {
+  background: #BF4584;
+}
+
   Navigation
   =========================================================================
 */
