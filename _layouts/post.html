@@ -15,7 +15,7 @@ layout: default
       <h5>Share Post</h5>
       <ul>
         <li>
-          <a href="http://twitter.com/share?text={{ page.title }}&url={{page.url}}">t</a>
+          <a href="http://twitter.com/share?text={{ page.title | uri_escape }}&amp;url={{page.url}}">t</a>
         </li>
         <li>
           <a href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}">f</a>
@@ -29,3 +29,4 @@ layout: default
     </div>
 
   </footer>
+</article>
