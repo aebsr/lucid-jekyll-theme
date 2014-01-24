@@ -2,7 +2,7 @@ title:        Lucid
 tagline:      'Lucid, a Jekyll theme'
 description:  'A simple, framework-free and content first <a href="http://jekyllrb.com/">jekyll</a> theme made by <a href="http://twitter.com/aebsr">@aebsr</a>'
 # Omit trailing slashes from your site url
-url:          http://aebsr.github.com/lucid-jekyll-theme
+url:          http://aeb.sr/lucid-jekyll-theme
 author:
   name:       'Antoine Butler'
   bio:        'A designer, developer and musician working for <a href="http://hzdg.com">HZ</a>. His opinions are his own, and often offend. <a href="mailto:antoinebsr@gmail.com?subject=Hi">Say Hi.</a>'
