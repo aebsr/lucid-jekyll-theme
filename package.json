@@ -18,6 +18,7 @@
     "bower": "~0.10.0",
     "grunt": "~0.4.1",
     "grunt-bump": "0.0.13",
-    "grunt-autoprefixer": "~0.6.4"
+    "grunt-autoprefixer": "~0.6.4",
+    "grunt-contrib-cssmin": "~0.7.0"
   }
 }
