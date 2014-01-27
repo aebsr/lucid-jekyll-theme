@@ -5,10 +5,9 @@ description: "Demo post displaying the various ways of highlighting code in Mark
 ---
 
 {% highlight css %}
-#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
+html {
+  height: 100%;
+  font: 400 1.0625em/1.75 "Ubuntu", sans-serif;
 }
 {% endhighlight %}
 
@@ -28,49 +27,23 @@ Line numbering enabled:
 {% endhighlight %}
 
 {% highlight ruby %}
-module Jekyll
-  class TagIndex < Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&#8211;'
-      self.data['title'] = "#{tag_title_prefix}#{tag}"
-      self.data['description'] = "An archive of posts tagged #{tag}."
-    end
-  end
-end
+# Ruby
+desired_method = :upcase
+str = "Hello World!"
+
+str.send(desired_method) # => "Hello World!"
+
+# Send, sends a message to the Object
 {% endhighlight %}
-
-
-### Standard Code Block
-
-    {% raw %}
-    <nav class="pagination" role="navigation">
-        {% if page.previous %}
-            <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
-        {% endif %}
-        {% if page.next %}
-            <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
-        {% endif %}
-    </nav><!-- /.pagination -->
-    {% endraw %}
-
 
 ### Fenced Code Blocks
 
-To modify styling and highlight colors edit `/assets/less/coderay.less` and compile `main.less` with your favorite preprocessor. Or edit `main.css` if that's your thing, the classes you want to modify all begin with `.coderay`. Line numbers and a few other things can be modified in `_config.yml` under `coderay`.
+This theme wasn't meant to be overly flexible. Modifying code in `site.css`, `site.min.css` and `pygments.css` is fine, but would make it difficult to upgrade [Lucid Theme](https://github.com/aebsr/lucid-jekyll-theme) in the future.
 
 ~~~ css
-#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
+html {
+  height: 100%;
+  font: 400 1.0625em/1.75 "Ubuntu", sans-serif;
 }
 ~~~
 
@@ -86,21 +59,11 @@ To modify styling and highlight colors edit `/assets/less/coderay.less` and comp
 ~~~
 
 ~~~ ruby
-module Jekyll
-  class TagIndex < Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&#8211;'
-      self.data['title'] = "#{tag_title_prefix}#{tag}"
-      self.data['description'] = "An archive of posts tagged #{tag}."
-    end
-  end
-end
+# Ruby
+desired_method = :upcase
+str = "Hello World!"
+
+str.send(desired_method) # => "Hello World!"
+
+# Send, sends a message to the Object
 ~~~
