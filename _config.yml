@@ -6,35 +6,21 @@ description:  'A simple, framework-free and content first <a href="http://jekyll
 url:          http://aeb.sr/lucid-jekyll-theme
 author:
   name:       'Antoine Butler'
-  bio:        'A designer, developer and musician. His opinions are his own, and often offend. <a href="mailto:antoinebsr@gmail.com?subject=Hi">Say Hi.</a>'
+  bio:        'A designer, developer and musician. His opinions are his own, and often offend.'
   email:      'antoinebsr@gmail.com'
   # Twitter user name WITH @ sign
   twitter:    '@aebsr'
   google_verify:     'm2QfwtTj5--Xr9RzyJf8JHdD5SkfKnjVTd2vhRo7CxQ'
   google_plus:       'AntoineButlerSr'
-analytics:    'UA-xxxxxxxx-1'
+analytics:    'UA-34982219-1'
 permalink:    pretty
 pygments:     true
-markdown:     redcarpet
+markdown:     kramdown
 paginate:     4
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: true
-
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
 links:
-  - title: About
-    url: /about
+  - title: Theme Setup
+    url: /theme-setup
   - title: Fork Me
     url: https://github.com/aebsr/lucid-jekyll-theme
     external: true
