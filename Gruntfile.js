@@ -7,13 +7,13 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
         autoprefixer: {
           site: {
-            src: 'assets/css/site.css'
+            src: 'lucid/css/site.css'
           }
         },
         cssmin: {
           combine: {
             files: {
-              'assets/css/site.min.css': ['assets/css/site.css']
+              'lucid/css/site.min.css': ['lucid/css/site.css']
             }
           }
         },
