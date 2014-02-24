@@ -19,6 +19,8 @@ markdown:     kramdown
 paginate:     4
 
 links:
+  - title: Blog
+    url: /lucid-jekyll-theme/
   - title: Theme Setup
     url: /theme-setup
   - title: Fork Me
