@@ -2,6 +2,7 @@
 layout: post
 title:  "Are You Lucid?"
 description: "Momma always said, lucid is as lucid does."
+tags: [lucid, jekyll, theme, definition]
 ---
 
 ## Definition

@@ -2,6 +2,7 @@
 layout: post
 title:  I Can Haz Video
 description: "Simple example post with plugin free video support."
+tags: [lucid, jekyll, video]
 ---
 
 Bruh, I can haz video? Why yes, yes you can.

@@ -2,6 +2,7 @@
 layout: post
 title: Syntax Highlighting
 description: "Demo post displaying the various ways of highlighting code in Markdown."
+tags: [lucid, jekyll, markdown, syntax]
 ---
 
 {% highlight css %}

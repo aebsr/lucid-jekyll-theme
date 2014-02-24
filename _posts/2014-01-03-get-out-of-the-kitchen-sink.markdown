@@ -2,6 +2,7 @@
 layout: post
 title:  Get Out Of The Kitchen, Sink
 description: "Sample post, exhibiting Lucid Theme's typography."
+tags: [markup, html, lucid, jekyll, typography]
 ---
 
 A small paragraph to _emphasis_ and show **important** bits.
