@@ -4,7 +4,8 @@ title: Theme Setup
 ---
 
 1. Clone the `_layouts` and `lucid` folders.
-2. Set your `index.(md/html)` to use the `Archive` theme
+2. Set your `index.(md/html)` to use the `Archive` layout
+3. Optionally create a `tags.html` to use the `Tags` layout
 
 {% highlight yaml %}
 ---
@@ -12,7 +13,7 @@ layout: archive
 ---
 {% endhighlight %}
 
-**Note:** Lucid Theme does not output the content found in your `index` file.
+**Note:** Lucid Theme does not output the content found in your `index` or `tags` file.
 
 Now set the following variables in your `_config.yml`
 
@@ -36,6 +37,8 @@ markdown:     kramdown
 paginate:     4
 
 links:
+  - title: Home
+    url: /lucid-jekyll-theme/
   - title: About
     url: /about
   - title: Lucid Theme
