@@ -20,7 +20,7 @@ paginate:     4
 
 links:
   - title: Blog
-    url: /lucid-jekyll-theme/
+    url: /
   - title: Theme Setup
     url: /theme-setup
   - title: Fork Me
