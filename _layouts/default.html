@@ -10,6 +10,7 @@
 		<title>
 		{% if page.title %}{{ page.title }} &middot; {% endif %}{{ site.tagline }}
 		</title>
+		<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.tagline }}{% endif %}">
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="{{ site.url }}/lucid/css/site.min.css">
